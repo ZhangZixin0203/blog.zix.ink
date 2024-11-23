@@ -20,6 +20,7 @@ minify: false
 # Define custom file paths.
 # Create your custom files in site directory `source/_data` and uncomment needed files below.
 custom_file_path:
+  style: source/_data/styles.styl
   #head: source/_data/head.njk
   #header: source/_data/header.njk
   #sidebar: source/_data/sidebar.njk
@@ -28,7 +29,7 @@ custom_file_path:
   #postBodyEnd: source/_data/post-body-end.njk
   #footer: source/_data/footer.njk
   #bodyEnd: source/_data/body-end.njk
-  #variable: source/_data/variables.styl
+  variable: source/_data/variables.styl
   #mixin: source/_data/mixins.styl
   #style: source/_data/styles.styl
 
@@ -290,9 +291,17 @@ follow_me:
 
 # Related popular posts
 # Dependencies: https://github.com/sergeyzwezdin/hexo-related-posts
-related_posts:
-  enable: false
-  icon: fa fa-signs-post
+##########################
+#related_posts:
+#  enable: true
+#  icon: fa fa-signs-post
+#related_posts:
+#  enable: true
+#  title: 要不看点其他的吧?.. # Custom header, leave empty to use the default one
+#  display_in_home: false
+#  params:
+#    maxCount: 5 # 最多显示数量
+#    PPMixingRate: 0.5 # 最大显示相似度
 
 # Post edit
 # Easily browse and edit blog source code online.
@@ -385,13 +394,13 @@ codeblock:
 back2top:
   enable: true
   # Back to top in sidebar.
-  sidebar: false
+  sidebar: true
   # Scroll percent label in b2t button.
-  scrollpercent: false
+  scrollpercent: true
 
 # Reading progress bar
 reading_progress:
-  enable: false
+  enable: true
   # Available values: left | right
   start_at: left
   # Available values: top | bottom
@@ -595,7 +604,7 @@ mediumzoom: false
 
 # Vanilla JavaScript plugin for lazyloading images.
 # For more information: https://apoorv.pro/lozad.js/demo/
-lazyload: false
+lazyload: true
 
 # Automatically insert whitespace between CJK and half-width characters.
 # For more information: https://github.com/vinta/pangu.js
