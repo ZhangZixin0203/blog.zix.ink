@@ -3,16 +3,16 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Zixin.K
-subtitle: ''
+title: 梓歆的主页
+subtitle: If you cannot be a poet, be the poem.
 description: ''
 keywords:
 author: Beakchau
 language: zh-CN
-timezone: ''
+timezone: 'Asia/Shanghai'
 
 url: https://zix.ink
-permalink: :year/:month/:day/
+permalink: post/:name/
 permalink_defaults:
 pretty_urls:
   trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
