@@ -11,7 +11,7 @@ tags: [Hexo, Nodejs, Website]
 categories: 
     - [实践]
     - [记录]
-    - [系列,博客记录]
+    - [博客记录]
 keywords:
 description:
 ---
