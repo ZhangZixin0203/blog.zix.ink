@@ -7,11 +7,12 @@ updated: 2024-11-25 8:00:00
 permalink:
 password:
 comments:
-tags:
+tags: [Hexo, Nodejs, Website, VSCode]
 categories:
   - [实践]
   - [记录]
   - [博客记录]
+  - [教程]
 keywords:
 description:
 ---

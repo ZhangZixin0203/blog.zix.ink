@@ -12,6 +12,7 @@ categories:
     - [实践]
     - [记录]
     - [博客记录]
+    - [教程]
 keywords:
 description:
 ---
