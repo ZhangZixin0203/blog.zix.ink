@@ -8,7 +8,9 @@ permalink:
 password:
 comments:
 tags: [Hexo, Nodejs, Website]
-categories: [实践,笔记]
+categories: 
+    - [实践]
+    - [记录]
 keywords:
 description:
 ---
