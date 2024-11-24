@@ -22,7 +22,7 @@ description:
 ### 内容
 - 16GB U盘
 - Ubuntu[系统镜像](https://cn.ubuntu.com/download)
-- 50GB的硬盘
+- 50GB的固态硬盘
 
 具体安装Ubuntu系统我就不过多赘述了，可以去[这里](https://www.bilibili.com/video/BV1554y1n7zv/)查看。
 ## 环境搭建
@@ -60,4 +60,34 @@ npm -v # should print `10.9.0`
 ### 与Github建立连接
 通常来讲，我们添加远程仓库，每一次操作远程仓库，都需要输入密码。所以说我们就需要用SSH方式（密钥）来与Github进行连接。   
 这里我同样不过多赘述，当然以后我还是会出一部分关于SSHkey的内容。暂时可以看[这里](https://zhuanlan.zhihu.com/p/688103044)进行操作。
-## 正式开始建设博客
+## 正式开始部署博客
+### 本地
+首先打开你的终端，**确保你在``~``中**，创建一个文件夹，进入，并全局安装Hexo，初始化Hexo再初始化Git。
+```
+mkdir blog ##文件夹名称随意
+
+npm install -g hexo-cli ##全局安装Hexo
+
+cd blog ##进入博客文件夹
+
+hexo init ##初始化Hexo
+
+git init ##初始化Git
+```
+> 特别强调：尽量不要把这些命令堆一块运行。
+### 远程
+登录到[Github](https://github.com)上，创建一个新仓库。命名随意。
+> 特别强调：如果你要部署到Github pages上，请将仓库名改为YourID.github.io
+> 不过这样可能需要在本地执行命令，不能直接提交到远程部署。（用Github Actions也行）
+
+将你的本地仓库与远程[建立连接](https://geek-docs.com/git/git-questions/3_git_git_connect_existing_local_repository_to_existing_remote_repository.html)
+> 特别强调：请使用SSH方式连接！如果无法使用再换成Https连接。并且建议用main作为主要分支。
+
+当然，这一部分我后面单独出文章说明。连接成功后，先将所有内容提交：
+```
+git add . ##将目录下所有内容提交到暂存区
+git commit -m "首次提交" ##提交
+git push -u origin main ##如果前一步用main，这里也是main
+```
+### 部署到Vercel
+登录到[Vercel](https://vercel.com/)，注册并登录以后，一般会直接提示你选择连接Github，然后选择仓库，就选择刚刚你创建的仓库。然后项目类型搜索Hexo。等待提示部署完成，此时，你可以绑定你自己的域名（可选，建议）。然后就可以访问了！
