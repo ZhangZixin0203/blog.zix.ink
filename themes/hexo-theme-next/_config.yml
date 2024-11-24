@@ -730,7 +730,7 @@ livere_uid: # <your_uid>
 # Gitalk
 # For more information: https://gitalk.github.io
 gitalk:
-  enable: true
+  enable: false
   github_id: zhangzixin0203 # GitHub repo owner
   repo: zix.ink # Repository name to store issues
   client_id: Ov23liRJqTJ1vJDTMllG # GitHub Application Client ID
