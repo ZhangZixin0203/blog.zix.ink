@@ -40,7 +40,7 @@ sudo apt-get -f install
 
 这算是CSDN最有用的一次。
 ## Github无法连接
-因为我同样也是一位游戏玩家，在Windows系统时常用WattTokkit来加速Steam、Github、人机验证等。但是在Linux系统上我了解到一款名为[dev-sidecar](https://github.com/docmirror/dev-sidecar)的开源项目。<a href='https://github.com/docmirror/dev-sidecar'><img alt="GitHub stars" src="https://img.shields.io/github/stars/docmirror/dev-sidecar?logo=github"></a>
+因为我同样也是一位游戏玩家，在Windows系统时常用WattTokkit来加速Steam、Github、人机验证等。但是在Linux系统上我了解到一款名为[dev-sidecar](https://github.com/docmirror/dev-sidecar)的开源项目。目前在github上有着16k的stars。
 
 这款开源项目提供了NPM、Github、Git.exe、Stack Overflow的加速，个人体验下来速度非常不错，不过就是一开始使用可能有些小问题。[Linux安装传送门](https://github.com/docmirror/dev-sidecar/blob/master/doc/linux.md)。
 
