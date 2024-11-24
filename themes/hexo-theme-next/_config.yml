@@ -161,7 +161,8 @@ site_state: true
 social:
   GitHub: https://github.com/zhangzixin0203 || fab fa-github
   E-Mail: mailto:beakchau@163.com || fa fa-envelope
-  Bilibili: https://https://space.bilibili.com/517711892 || fab fa-bilibili
+  Bilibili: https://space.bilibili.com/517711892 || fab fa-bilibili
+  Zhihu: https://www.zhihu.com/people/zxfunm || fab fa-zhihu
   #Weibo: https://weibo.com/yourname || fab fa-weibo
   #Twitter: https://twitter.com/yourname || fab fa-twitter
   #FB Page: https://www.facebook.com/yourname || fab fa-facebook
@@ -182,7 +183,7 @@ links_settings:
   layout: block
 
 links:
-  Example: https://example.com
+  聚合图床: https://www.superbed.cn/
 
 # Table of Contents in the Sidebar
 # Front-matter variable (nonsupport wrap expand_all).
