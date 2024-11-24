@@ -114,6 +114,6 @@ symbols_count_time:
   suffix: "mins."
 #Lazy Load Img
 lazyload:
-  enable: true
+  enable: false
   onlypost: true
   loadingImg: /images/loading.gif
