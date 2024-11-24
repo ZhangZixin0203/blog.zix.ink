@@ -112,3 +112,8 @@ symbols_count_time:
   awl: 2
   wpm: 300
   suffix: "mins."
+#Lazy Load Img
+lazyload:
+  enable: true
+  onlypost: true
+  loadingImg: /images/loading.gif
