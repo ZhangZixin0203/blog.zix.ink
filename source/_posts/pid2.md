@@ -9,7 +9,7 @@ password:
 comments:
 tags: [Ubuntu,Fcitx,Debug]
 categories:
-    - [记录]
+    - [教程]
     - [实践]
 keywords:
 description:

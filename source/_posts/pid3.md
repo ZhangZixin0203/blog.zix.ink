@@ -10,8 +10,7 @@ comments:
 tags: [Hexo, Nodejs, Website, VSCode]
 categories:
   - [实践]
-  - [记录]
-  - [博客记录]
+  - [博客系列]
   - [教程]
 keywords:
 description:
