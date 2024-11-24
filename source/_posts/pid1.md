@@ -11,6 +11,7 @@ tags: [Hexo, Nodejs, Website]
 categories: 
     - [实践]
     - [记录]
+    - [系列,博客记录]
 keywords:
 description:
 ---
@@ -94,4 +95,6 @@ git push -u origin main ##如果前一步用main，这里也是main
 ### 部署到Vercel
 登录到[Vercel](https://vercel.com/)，注册并登录以后，一般会直接提示你选择连接Github，然后选择仓库，就选择刚刚你创建的仓库。然后项目类型搜索Hexo。等待提示部署完成，此时，你可以绑定你自己的域名（可选，建议）。然后就可以访问了！
 ## 下一期
-低成本高效率使用Vercel&Github后期运维内容
+pid2：记录在Ubuntu下安装包时遇到的问题【完成】
+### 同系列
+pid3：低成本高效率使用Vercel&Github后期运维内容
