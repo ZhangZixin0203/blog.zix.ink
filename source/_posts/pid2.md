@@ -80,6 +80,3 @@ Windows上我只用Edge，所以说我在Linux系统上也选择了Edge。与QQ�
 - [Ubuntu出现依赖关系问题 - 仍未被配置问题 - C(出)S(生)DN](https://blog.csdn.net/s306205127/article/details/78546484)
 - [dev-sidecar/README.md](https://github.com/docmirror/dev-sidecar/blob/master/README.md)
 - [如何在 Ubuntu 上安装 Microsoft Edge 浏览器](https://www.sysgeek.cn/ubuntu-install-microsoft-edge/)
-
-## 下一期
-pid3：低成本高效率使用Vercel&Github后期运维内容【完成】
