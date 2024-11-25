@@ -3,11 +3,11 @@ title: 记录在Ubuntu下安装包时遇到的问题
 top: 0
 copyright: true
 date: 2024-11-24 12:00:00
-updated: 2024-11-24 13:00:00
+updated: 2024-11-25 21:00:00
 permalink:
 password:
 comments:
-tags: [Ubuntu,Fcitx,Debug]
+tags: [Ubuntu,Fcitx,Debug,Edge]
 categories:
     - [教程]
     - [实践]
@@ -37,8 +37,19 @@ sudo apt-get -f install
 然后成功安装。据网络上与我遇到同样问题的同志所说：
 > 但这并不是依赖问题，使用sudo apt-get -f install　无法解决。其实问题是因为这几个软件包没有被完全安装或卸载。——[Ayknims on CSDN](https://blog.csdn.net/s306205127/article/details/78546484)
 
-
 这算是CSDN最有用的一次。
+
+### 搜狗输入法闪屏问题【2024年11月25日补充】
+这同样是我遇到的问题，解决方式就是修改为X11模式。
+<br/>详细步骤：
+```
+# 使用Gedit打开
+gedit /etc/gdm3/custom.conf 
+# 如若这一步提示没有Gedit这个命令，请执行
+sudo apt-get update
+sudo apt-get install gedit
+```
+将`WaylandEnable=false`这一行内容取消注释即可。
 ## Github无法连接
 因为我同样也是一位游戏玩家，在Windows系统时常用WattTokkit来加速Steam、Github、人机验证等。但是在Linux系统上我了解到一款名为[dev-sidecar](https://github.com/docmirror/dev-sidecar)的开源项目。目前在github上有着16k的stars。
 
@@ -71,4 +82,4 @@ Windows上我只用Edge，所以说我在Linux系统上也选择了Edge。与QQ�
 - [如何在 Ubuntu 上安装 Microsoft Edge 浏览器](https://www.sysgeek.cn/ubuntu-install-microsoft-edge/)
 
 ## 下一期
-pid3：低成本高效率使用Vercel&Github后期运维内容
+pid3：低成本高效率使用Vercel&Github后期运维内容【完成】
