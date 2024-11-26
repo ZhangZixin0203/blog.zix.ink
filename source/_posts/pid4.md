@@ -7,18 +7,18 @@ updated: 2024-11-30 8:00:00
 permalink:
 password:
 comments:
-tags:
-categories:
+tags: [Git]
+categories: 
+    - [学习]
 keywords:
 description:
 ---
-摘要：本文主要记录了Git学习的笔记。学习参考[链接](https://liaoxuefeng.com/books/git/)。
+摘要：本文主要记录了Git学习的笔记。主要学习了git基础知识，如：基本命令学习、版本回退等。参考[链接](https://liaoxuefeng.com/books/git/)。
 <!--more-->
 ## 创建版本库
+[传送门](https://liaoxuefeng.com/books/git/create-repo/index.html)
 > 版本库又名仓库（Repository），你可以简单理解成一个目录，这个目录里面的所有文件都可以被Git管理起来，每个文件的修改、删除，Git都能跟踪，以便任何时刻都可以追踪历史，或者在将来某个时刻可以“还原”。
 
-
-传送门
 ```
 $ git init
 Initialized empty Git repository in /Users/michael/learngit/.git/
